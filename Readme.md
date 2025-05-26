@@ -97,9 +97,9 @@ cargo build --release
 cp target/release/clown /usr/local/bin/
 ```
 
-or via `AUR` (soon)
+or via `AUR`
 ```sh
-yay -S clown
+yay -S clown-git
 ```
 
 ---
