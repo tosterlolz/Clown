@@ -1,6 +1,6 @@
 # Clown
 
-**Clown** is a simple build automation tool inspired by Make, designed for Rust projects and using a TOML-based configuration file (`Clownfile`).  
+**Clown** is a simple build automation tool inspired by Make, using a TOML-based configuration file (`Clownfile`).  
 It supports dependencies, variables, colored output, and clear targets for building, running, cleaning, and testing your project.
 
 ---
