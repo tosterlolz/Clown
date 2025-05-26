@@ -1,0 +1,27 @@
+[vars]
+profile = "release"
+name = "Clown"
+
+[all]
+desc = "Build and run everything"
+deps = ["build", "run"]
+
+[build]
+desc = "Build the project"
+steps = [
+    "cargo build --${profile}",
+    "echo Build done!"
+]
+
+[run]
+desc = "Run the project"
+steps = ["cargo run --${profile}"]
+
+[clean]
+desc = "Clean the project"
+steps = ["cargo clean"]
+
+[test]
+desc = "Run tests"
+deps = ["build"]
+steps = ["cargo test"]
